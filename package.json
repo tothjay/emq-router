@@ -1,6 +1,6 @@
 {
-  "name": "mqtt-router",
-  "version": "0.1.0",
+  "name": "emq-router",
+  "version": "0.1.1",
   "description": "Router for mqtt (EMQ) subscriptions.",
   "main": "index.js",
   "scripts": {
