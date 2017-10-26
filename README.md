@@ -1,14 +1,11 @@
-# mqtt-router [![Build Status](https://drone.io/github.com/wolfeidau/mqtt-router/status.png)](https://drone.io/github.com/wolfeidau/mqtt-router/latest)
+# emq-router
 
-This module a router for use with MQTT subscriptions.
-
-[![NPM](https://nodei.co/npm/mqtt-router.png)](https://nodei.co/npm/mqtt-router/)
-[![NPM](https://nodei.co/npm-dl/mqtt-router.png)](https://nodei.co/npm/mqtt-router/)
+This module a router for use with MQTT (EMQ) subscriptions.
 
 ## Installation
 
 ```
-npm install mqtt-router
+npm install emq-router
 ```
 
 # TLDR
@@ -27,7 +24,7 @@ inevitable tokenising of the topic which I do every time I build complex topic s
 
 ```javascript
 var mqtt = require('mqtt')
-  , mqttrouter = require('mqtt-router');
+  , mqttrouter = require('emq-router');
 
 var settings = {
   reconnectPeriod: 5000
@@ -60,5 +57,5 @@ One thing to note is that subscriptions are refreshed on reconnect, the status o
 exposed via the `isConnected` method.
 
 ## License
-Copyright (c) 2013 Mark Wolfe
+Copyright (c) 2017 Daniel Chang
 Licensed under the MIT license.

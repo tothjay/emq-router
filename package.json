@@ -1,24 +1,24 @@
 {
   "name": "mqtt-router",
-  "version": "0.5.1",
-  "description": "Router for mqtt subscriptions.",
+  "version": "0.1.0",
+  "description": "Router for mqtt (EMQ) subscriptions.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wolfeidau/mqtt-router.git"
+    "url": "https://github.com/tothjay/emq-router.git"
   },
   "keywords": [
     "MQTT",
     "router",
     "subscriptions"
   ],
-  "author": "Mark Wolfe <mark@wolfe.id.au>",
+  "author": "Daniel Chang <princeno2001@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wolfeidau/mqtt-router/issues"
+    "url": "https://github.com/tothjay/emq-router/issues"
   },
   "dependencies": {
     "mqtt": "~2.9.1",
